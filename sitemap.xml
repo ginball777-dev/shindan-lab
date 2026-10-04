@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://shindanlab-gp.github.io/shindan-lab/</loc>
   </url>
+
   <url>
-    <loc>https://shindanlab-gp.github.io/shindan-lab/articles/</loc>
+    <loc>https://shindanlab-gp.github.io/shindan-lab/about.html</loc>
   </url>
+
+  <url>
+    <loc>https://shindanlab-gp.github.io/shindan-lab/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://shindanlab-gp.github.io/shindan-lab/privacy.html</loc>
+  </url>
+
+  <url>
+    <loc>https://shindanlab-gp.github.io/shindan-lab/articles/index.html</loc>
+  </url>
+
   <url>
     <loc>https://shindanlab-gp.github.io/shindan-lab/articles/lazy-saving.html</loc>
   </url>
+
+  <url>
+    <loc>https://shindanlab-gp.github.io/shindan-lab/articles/mobile-plan.html</loc>
+  </url>
+
 </urlset>
