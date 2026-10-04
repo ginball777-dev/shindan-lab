@@ -21,12 +21,48 @@
     <loc>https://shindanlab-gp.github.io/shindan-lab/articles/index.html</loc>
   </url>
 
+  <!-- 通常記事 -->
+
   <url>
     <loc>https://shindanlab-gp.github.io/shindan-lab/articles/lazy-saving.html</loc>
   </url>
 
   <url>
     <loc>https://shindanlab-gp.github.io/shindan-lab/articles/mobile-plan.html</loc>
+  </url>
+
+  <url>
+    <loc>https://shindanlab-gp.github.io/shindan-lab/articles/fixed-cost.html</loc>
+  </url>
+
+  <url>
+    <loc>https://shindanlab-gp.github.io/shindan-lab/articles/subscription.html</loc>
+  </url>
+
+  <url>
+    <loc>https://shindanlab-gp.github.io/shindan-lab/articles/saving-beginner.html</loc>
+  </url>
+
+  <!-- 完全ガイド -->
+
+  <url>
+    <loc>https://shindanlab-gp.github.io/shindan-lab/articles/lazy-saving-guide.html</loc>
+  </url>
+
+  <url>
+    <loc>https://shindanlab-gp.github.io/shindan-lab/articles/mobile-plan-guide.html</loc>
+  </url>
+
+  <url>
+    <loc>https://shindanlab-gp.github.io/shindan-lab/articles/fixed-cost-guide.html</loc>
+  </url>
+
+  <url>
+    <loc>https://shindanlab-gp.github.io/shindan-lab/articles/subscription-guide.html</loc>
+  </url>
+
+  <url>
+    <loc>https://shindanlab-gp.github.io/shindan-lab/articles/saving-beginner-guide.html</loc>
   </url>
 
 </urlset>
