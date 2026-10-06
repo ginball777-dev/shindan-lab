@@ -1,1 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
 
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0VX42MN3WY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0VX42MN3WY');
+</script>
+  
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ズボラでも続く節約診断 | Shindan Lab</title>
+
+<link rel="icon" type="image/png" href="favicon.png">
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<main class="container">
+
+
+  <!-- トップページ -->
+
+  <section id="home">
+
+
+    <h1>
+      💰 Shindan Lab
+    </h1>
+
+
+    <h2>
+      ズボラでも続く<br>
+      節約診断
+    </h2>
+
+
+    <p class="subtitle">
+
+      あなたの性格に合った<br>
+      無理なく続けられる節約方法を診断します。
+
+    </p>
+
+
+    <div class="intro-card">
+
+      <p>
+        ✔ 20問で診断<br>
+        ✔ あなた専用の節約アドバイス<br>
+        ✔ 今日からできる方法を紹介
+      </p>
+
+    </div>
+
+
+    <button id="start-button">
+
+      診断を始める
+
+    </button>
+
+    <a href="articles/index.html" class="secondary-button">
+  📚 節約記事一覧を見る
+</a>
+
+  </section>
+
+
+
+
+  <!-- 診断画面 -->
+
+
+  <section id="quiz" style="display:none;">
+
+
+    <div class="progress">
+
+      <div id="progress-bar"></div>
+
+    </div>
+
+
+    <p id="progress-text">
+      1 / 20問
+    </p>
+
+
+
+    <h2 id="question"></h2>
+
+
+    <div id="choices"></div>
+
+
+  </section>
+
+
+
+
+
+  <!-- 結果画面 -->
+
+
+  <!-- 結果画面 -->
+<section id="result-area" style="display:none;">
+
+  <div id="result-icon"></div>
+
+  <h2 id="result-title"></h2>
+
+  <div id="star-level"></div>
+
+  <p id="result-description"></p>
+
+  <div class="card">
+
+    <h3>✅ あなたにおすすめ</h3>
+
+    <ul id="recommended-list"></ul>
+
+  </div>
+
+  <div class="card">
+
+    <h3>⚠️ 向いていない節約</h3>
+
+    <ul id="avoid-list"></ul>
+
+  </div>
+
+  <div class="card">
+
+    <h3>🎯 今日からできること</h3>
+
+    <p id="advice"></p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>📖 あなたへのおすすめ記事</h3>
+
+    <div id="article-links"></div>
+
+  </div>
+
+  <button id="restart-button">
+  もう一度診断する
+</button>
+
+<div class="article-list">
+  <h2>📄 おすすめ記事</h2>
+
+  <a href="articles/lazy-saving.html" class="article-card">
+    <h3>ズボラでも年間5万円節約する方法</h3>
+    <p>
+      毎日頑張らなくても年間5万円を目指せる、
+      固定費節約のコツを紹介しています。
+    </p>
+  </a>
+</div>
+
+</section>
+
+<footer>
+
+<a href="index.html">🏠 ホーム</a>
+
+<a href="articles/index.html">📚 記事一覧</a>
+
+<a href="about.html">👤 運営者情報</a>
+
+<a href="contact.html">📧 お問い合わせ</a>
+
+<a href="privacy.html">🔒 プライバシーポリシー</a>
+
+<p>
+© 2026 Shindan Lab
+</p>
+
+</footer>
+
+</main>
+
+
+
+<script src="questions.js"></script>
+
+<script src="results.js"></script>
+
+<script src="script.js"></script>
+
+
+
+</body>
+
+</html>
